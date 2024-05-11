@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link  rel="stylesheet" href="lib/animate/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/fontawesome.min.css" integrity="sha512-UuQ/zJlbMVAw/UU8vVBhnI4op+/tFOpQZVT+FormmIEhRSCnJWyHiBbEVgM4Uztsht41f3FzVWgLuwzUqOObKw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.js">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
+    <title>Ritik Portfolio</title>
+</head>
+<body >
+
+
+  <nav class=" navbar navbar-expand-lg sticky-top row">
+    <a class="navbar-brand "  href="#home" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;  animation-duration: 1s; animation-name: slideInLeft; font-size: x-large;">
+    <div style="display: flex;">
+      <h2 class="wow slideInRight" data-wow-duration="2s" style="color: white; animation-duration: 2s;  animation-name: slideInRight; font-weight: 1000;">Dev</h2>
+      <h2 class="wow slideInUp" data-wow-duration="2s" style="color:greenyellow; animation-duration: 2s;  animation-name: slideInUp; font-weight: 1000">Sec</h2> 
+      <h2 class="wow slideInLeft" data-wow-duration="2s" style="color: white; animation-duration: 2s;  animation-name: slideInLeft; font-weight: 1000">Ops Engineer</h2>
+    </div>
+    </a>
+    
+    <!-- <button class="navbar-toggler" style="background-color: transparent;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button> -->
+
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto" style="padding-right: 5%;">
+        <li class="nav-item page-scroll ">
+          <a class="nav-link" href="#home">Profile<span class="sr-only"></span></a>
+        </li>
+        <!-- <li class="nav-item profile">
+          <a class="nav-link " href="login.html">Profile<span class="sr-only"></span></a>
+        </li> -->
+        <li class="nav-item page-scroll">
+          <a class="nav-link " href="#about">About </a>
+        </li>
+       
+        <li class="nav-item page-scroll">
+          <a class="nav-link " href="#projects">Projects</a>
+        </li>
+        <li class="nav-item page-scroll">
+          <a class="nav-link " href="contact.html">Contact</a>
+        </li>
+        
+      </ul>
+    </div>
+
+
+
+                                <!-- Sidenav for small screen -->
+
+
+                   <div id="mySidepanel" class="sidepanel">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <ul class="navbar-nav ml-auto" style="padding-right: 5%;">
+                      <li class="nav-item page-scroll ">
+                        <a class="nav-link" href="#home">Profile<span class="sr-only"></span></a>
+                      </li>
+                      <!-- <li class="nav-item profile">
+                        <a class="nav-link " href="login.html">Profile<span class="sr-only"></span></a>
+                      </li> -->
+                      <li class="nav-item page-scroll">
+                        <a class="nav-link " href="#about">About </a>
+                      </li>
+                     
+                      <li class="nav-item page-scroll">
+                        <a class="nav-link " href="#projects">Projects</a>
+                      </li>
+                      <li class="nav-item page-scroll">
+                        <a class="nav-link " href="contact.html">Contact</a>
+                      </li>
+                      
+                    </ul>
+                  </div>
+                  
+                  <button class="openbtn" onclick="openNav()">&#9776; </button>
+
+  </nav>
+
+    
+
+       
+
+          <!-- Profile Pic and About-->
+
+      <section id="home" class="container">
+        <!-- <div class="col-md-12" style="margin-top: 5%; padding-bottom: 2%;">
+          <center> <h1 style="font-family:Arial, Helvetica, sans-serif; font-weight: 550;">Earn Money <br> By Selling Your Scraps</h1> <hr></center>
+          </div> -->
+        <div class="row" style=" padding: 0%; scroll-behavior: smooth;">
+          <div class="col-md-4 col-12" >
+            <div class="row" style="font-family:Arial, Helvetica, sans-serif; ">             
+              
+              <div class="about2 col-md-12 col-12 wow slideInLeft" data-wow-duration="1s" style="animation-duration: 1s; animation-name: slideInLeft; ">
+                <img src="img/my pic.JPG" alt="my picture" style="width: 100%; height: 100%; border-radius: 5%;">
+              </div>
+              </div>        
+          </div>
+          <div class="col-md-8 col-12 wow slideInRight" data-wow-duration="2s" style="animation-duration: 2s; animation-name: slideInRight; color: whitesmoke">
+              <div class="about" style="align-items: center; padding-top: 0%; padding-left: 0%;">
+                <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; color: white; font-size: larger;"> <i>Hello! I am</i> </p>
+                <h1>Ritik Ranjan</h1>
+                <p style="color:black ; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;  ; width: 100%; color: whitesmoke; font-size: larger;"> <i> A DevSecOps Engineer passionate about integrating security practices into software development lifecycles. </i> </p>
+               </div>
+               <center><a class="resume" href="Resume/RITIK RESUME 1.7.pdf" download="Resume/RITIK RESUME 1.7.pdf" target="_blank" style="color: white; font-size: medium; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;"><button id="button" class="btn btn-primary deep-purple btn-block" style="background-color: blueviolet; width: 50%; margin: 0%;"><b>My Resume</b></button></a></center>
+                
+               <!-- <a href="/Resume/RITIK RESUME 1.7.pdf" download="RITIK RESUME 1.7.pdf"> <img src="/Resume/RITIK RESUME 1.7.pdf" alt="resume"></a> -->
+          </div>
+        </div>
+      </section>
+
+<hr>
+  
+
+<!--Owl carousel -->
+
+<section  class="container" id="about">
+
+  <!-- About me    -->
+<center><h1  style="color: white;"> <u> About </u></h1></center>
+
+  <div class="container row">
+    <div class="col-md-6 col-12" >
+        <h2 style="color: white;"> <i> Get to know me! </i></h2>
+      <div>
+        <p style="color: rgb(181, 210, 239); font-size: medium;">I am Ritik Ranjan, a <span style="font-weight: bolder;"> DevSecOps Engineer </span>, passionate about integrating <span style="font-weight: bolder;">security practices</span> into software development lifecycles and deploying production-ready applications.</p>
+        <p style="color: rgb(181, 210, 239); font-size: medium;">
+          My current project involves integrating security practices into software development lifecycles and deploying production-ready applications through <span style="font-weight: bolder;">GitLab</span>. I am implementing <span style="font-weight: bolder;">DevSecOps methodologies</span>, enabling security for developers to determine the vulnerability in their applications. 
+        </p>
+        <p style="color: rgb(181, 210, 239); font-size: medium;">I believe continuous learning and development to keep myself up-to-date and up-skilled is the solution to modern-day application development for customers.
+        </p> 
+    </div>
+  </div>
+
+  <div class="col-md-6 col-12">
+    <center><h2 style="color: white;">KEY STRENGTHS</h2></center> 
+   <center> <ul style="color: rgb(181, 210, 239);">
+      
+      <li style="background-color: rgb(41, 65, 90); display: inline-block; padding: 10px 20px; text-align: center;border-radius: 5px; margin: 10px;">Problem Solver</li>
+      <li style="background-color: rgb(41, 65, 90); display: inline-block; padding: 10px 20px; text-align: center;border-radius: 5px;  margin: 10px;">Quick Learner</li>
+      <li style="background-color: rgb(41, 65, 90); display: inline-block; padding: 10px 20px; text-align: center;border-radius: 5px;  margin: 10px;">Hard Working</li>
+      <li style="background-color: rgb(41, 65, 90); display: inline-block;     padding: 10px 20px; text-align: center;border-radius: 5px;  margin: 10px;">Team Player</li>
+      <li style="background-color: rgb(41, 65, 90); display: inline-block;     padding: 10px 20px; text-align: center;border-radius: 5px;  margin: 10px;">Self Motivated</li>
+
+    </ul></center>
+  </div>
+
+  </div>
+
+                       <!-- Skills -->
+                       
+
+      <center><h1 style="color: white;">SKILLS</h1> </center>
+
+  <div class="owl-carousel " style="padding: 5% 0% 0% 0%; color: whitesmoke;">
+   <div class="item">
+     <img src="img/gitlab.png" width="100%">
+     <center><p style="font-size: medium; font-weight: bolder;">GitLab</p></center>
+   </div>
+   <div class="item">
+     <img src="img/jenkins.png" width="100%">
+     <center><p style="font-size: medium; font-weight: bolder;">Jenkins</p></center>
+   </div>
+   <div class="item">                        
+     <img src="img/docker.png" width="100%">
+     <center><p style="font-size: medium; font-weight: bolder;">Docker</p></center>
+   </div>
+   <div class="item">
+     <img src="img/kubernetes.png" width="100%">  
+     <center><p style="font-size: medium; font-weight: bolder;">Kubernetes</p></center>                     
+   </div>
+   <div class="item">    
+       <img src="img/git.png" width="100%">    
+       <center><p style="font-size: medium; font-weight: bolder;">Git</p></center>                        
+   </div>
+   <div class="item">    
+     <img src="img/GitHub.png" width="100%">      
+     <center><p style="font-size: medium; font-weight: bolder;">GitHub</p></center>                      
+ </div>
+ <div class="item">    
+   <img src="img/sonarqube.png" width="100%">       
+   <center><p style="font-size: medium; font-weight: bolder;">SonarQube</p></center>                     
+</div>
+<div class="item">    
+ <img src="img/blackduck.png" width="100%">      
+ <center><p style="font-size: medium; font-weight: bolder;">BlackDuck</p></center>                      
+</div>
+<div class="item">    
+<img src="img/synopsys.png" width="100%">       
+<center><p style="font-size: medium; font-weight: bolder;">Polaris</p></center>                     
+</div>
+<div class="item">    
+ <img src="img/AWS.png" width="100%">       
+ <center><p style="font-size: medium; font-weight: bolder;">AWS</p></center>                     
+</div>
+<div class="item">    
+<img src="img/linux.png" width="100%">   
+<center><p style="font-size: medium; font-weight: bolder;">Linux</p></center>                         
+</div>
+<div class="item">    
+<img src="img/excel.png" width="100%">  
+<center><p style="font-size: medium; font-weight: bolder;">Excel</p></center>                          
+</div>
+</div>     
+
+
+</section>
+
+                    <!-- Work Experience   -->
+
+
+
+<section class="plan container" style=" scroll-behavior: smooth; padding: 0% 0% 0% 0%;background-image:url(img/50-Beautiful-and-Minimalist-Presentation-Backgrounds-031.jpg)">
+  <div class="col-md-12 col-12" style="padding: 0%;">
+  <center><h1 style="color: black;">Work Experience <hr> </h1></center>
+</div> 
+<div class="row container" style="padding-bottom: 0%; padding-top: 0%;">
+    <!-- <div class="col-md-5 col-12  experience" >       
+      <center> <img src="img/kisspng-computer-icons-work-experience-computer-software-c-experience-bar-5adf275bca1d81.4671771015245740438279.png" alt="" width="100%" style=" padding:0% 0% 0% 0%;"></center>
+  </div> -->
+<div class="steps col-md-12 container">
+  <div class=" col-md-12 col-12  wow slideInRight" data-wow-duration="2s" style="padding-top:0%; animation-duration: 2s; animation-name: slideInRight">
+    <h5>Full Time:  DevSecOps Engineer</h5>
+    <h3>SecIQ Technologies LLP </h3>
+    <i class="fa-solid fa-calendar-days" style="font-size: small;"> <b style="font-family: Arial, Helvetica, sans-serif;"> July 2023 - Present </b> </i>
+    
+    <ul style="font-size: small;">
+       <li>Onboarding applications and projects on security tools for 
+        SCA(Blackduck) and SAST(Coverity on Polaris), ensuring 
+        comprehensive security scanning and vulnerability 
+        detection.</li>
+       
+       <li>Configure the security stage on Gitlab pipeline and 
+        seamlessly integrated Blackduck and Polaris with Gitlab 
+        projects, enabling automated security scans and ensuring 
+        early detection of vulnerabilities.</li> 
+
+       <li>Set up Blackduck and Polaris scans on various operating 
+          systems, including Windows, Linux, and MacOS, ensuring 
+          compatibility and coverage across different environments.</li>
+
+       <li>Proactively resolving incidents and errors related to 
+          Blackduck and Polaris, adhering to SLA terms and 
+          minimizing downtime and disruptions to the development 
+          process. </li> 
+    </ul>     
+    </div>
+
+    <hr>
+   
+     <div class=" col-md-12 col-12 wow slideInRight" data-wow-duration="2s" style="padding-top:0%; animation-duration: 2s; animation-name: slideInRight">
+        
+      <h5>Summer Intern: DevOps Engineer </h5>
+      <h3>Crimzen Red Studios </h3>
+      <i class="fa-solid fa-calendar-days" style="font-size: small;"> <b style="font-family: Arial, Helvetica, sans-serif;"> October 2022 - December 2022</b> </i>
+      
+      <ul style="font-size: small;">
+         <li>Successfully deployed Nakama Server on AWS, utilizing 
+          tools such as AWS EC2, Git, Github, Docker, and Jenkins, 
+          to build an online multiplayer game for Crimzen Red 
+          Studios.</li>
+         
+         <li>Implemented Cockroachdb on AWS as the game database, 
+          leveraging AWS EC2, Git, Github, Docker, and Jenkins, to 
+          ensure efficient and reliable data storage and retrieval.</li> 
+  
+         <li>Collaborated with the development team to ensure 
+          seamless integration of the Nakama Server and 
+          Cockroachdb into the game infrastructure. </li>
+      </ul>
+       </div>
+
+   <!-- <div class=" col-md-12 col-12 wow slideInRight" data-wow-duration="2s" style="padding-top:3%; animation-duration: 2s; animation-name: slideInRight">
+     
+     <p style="color: rgb(60, 14, 14) ; font-family:Arial, Helvetica, sans-serif; font-weight: 550; font-size:medium"> “The average household throws away 13,000 pieces of <br> paper each year. We collect all paper and recycle/reuse, <br> hundreds of millions of trees would be saved each year.”</p>
+    </div>
+
+    <div class=" col-md-12 col-12 wow slideInUp" data-wow-duration="2s" style="padding-top:3%; animation-duration: 2s; animation-name: slideInUp">
+       
+       <p style="color: rgb(60, 14, 14) ; font-family:Arial, Helvetica, sans-serif; font-weight: 550; font-size:medium"> “Recycling raw materials from discarded electronics, <br> natural resources are conserved and air and water <br> pollution caused by hazardous disposal is avoided.”</p>
+      </div> -->
+
+</div>
+</div>
+
+</section>
+
+
+                        
+
+
+           <!-- projects -->
+
+<section  class="container">
+
+ <center> <h1 id="projects" style="color: white;">Projects</h1>
+  <p style="color: white; font-size: x-large;">Here you will find some of my personal projects that I created.</p>
+ </center>
+
+  <div class="row">
+    <div class="col-md-6 col-12" >
+      <div class="row" style="font-family:Arial, Helvetica, sans-serif; ">             
+        
+        <div class="about2 container col-md-12 col-12 wow slideInLeft" data-wow-duration="1s" style="animation-duration: 1s; animation-name: slideInLeft; ">
+          <img src="img/4th project(jenkins declarative).png" alt="images" width="100%" height="100%">
+        </div>
+        </div>        
+    </div>
+    <div class="col-md-6 col-12" style="color: white">
+        <div class="about" style="align-items: center; padding-top: 0%; padding-left: 2%;">
+          <h2 style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;"><b> <i>Deployed Django Notes App on AWS</i> </b> </h2>
+          <ul>
+          <li> Setup and managed AWS EC2 instance.</li> 
+          <li> Setup and managed Docker container for Django application.</li> 
+          <li> Created declarative pipeline project on Jenkins.</li> 
+          <li> Setup and managed declarative CICD pipeline on Jenkins. </li>
+            <p style="color: white; font-size: medium;"> <span style="font-weight: bolder; font-size: x-large;">Achievement:</span> Jenkins declarative  pipelines offer  a structured, 
+            maintainable and  scalable  approach  to  define  and  manage  your  build  pipelines. 
+          </p>
+          </ul>
+          </div>
+         <center><a class="resume" href="https://ritik3311.hashnode.dev/configuring-jenkins-declarative-pipeline-with-aws-cloud" style="color: white; font-size: medium; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;"><button id="button" class="btn btn-primary deep-purple btn-block" style="background-color: blueviolet; width: 50%; margin: 0%;"><b>VIEW PROJECT</b></button></a></center>
+          
+         
+    </div>
+  </div>
+
+  ------------------------------
+
+  <div class="row">
+    <div class="col-md-6 col-12" >
+      <div class="row" style="font-family:Arial, Helvetica, sans-serif; ">             
+        
+        <div class="about2 container col-md-12 col-12 wow slideInLeft" data-wow-duration="1s" style="animation-duration: 1s; animation-name: slideInLeft; ">
+          <img src="img/1rd project(kubernetes).png" alt="images" width="100%" height="100%">
+        </div>
+        </div>        
+    </div>
+    <div class="col-md-6 col-12" style="color: white">
+        <div class="about" style="align-items: center; padding-top: 0%; padding-left: 2%;">
+          <h2 style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;"><b> <i>Deployed Django Todo List on Kubernetes</i> </b> </h2>
+          <ul>
+            <li> Built Kubernetes Cluster on AWS from scratch with
+              Minikube.</li> 
+            <li> Setup and managed Docker container for Django
+              application into Kubernetes Pods.</li> 
+            <li> Managed Deployment, Replication, Auto-healing and Autoscaling for Kubernetes cluster.</li> 
+            <li> Managed network and service with Host IP allocation.</li>
+              <p style="color: white; font-size: medium;"> <span style="font-weight: bolder; color: white; font-size: x-large;">Achievement:</span> Reduced Downtime on Production Environments. 
+            </p>
+            </ul>
+         </div>
+         <center><a class="resume" href="https://ritik3311.hashnode.dev/deployed-django-todo-list-on-kubernetes" style="color: white; font-size: medium; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;"><button id="button" class="btn btn-primary deep-purple btn-block" style="background-color: blueviolet; width: 50%; margin: 0%;"><b>VIEW PROJECT</b></button></a></center>
+          
+         
+    </div>
+  </div>
+
+  -------------------------------
+
+  <div class="row">
+    <div class="col-md-6 col-12" >
+      <div class="row" style="font-family:Arial, Helvetica, sans-serif; ">             
+        
+        <div class="about2 container col-md-12 col-12 wow slideInLeft" data-wow-duration="1s" style="animation-duration: 1s; animation-name: slideInLeft; ">
+          <img src="img/3rd project(sonarqube).png" alt="images" width="100%" height="100%">
+        </div>
+        </div>        
+    </div>
+    <div class="col-md-6 col-12" style="color: white">
+        <div class="about" style="align-items: center; padding-top: 0%; padding-left: 2%;">
+          <h2 style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;"><b> <i>Deployed Node Todo App on AWS and integrated SonarQube</i> </b> </h2>
+          <ul>
+            <li> Setup and managed two (t2.medium) AWS EC2 instance.</li> 
+            <li> Setup and managed Docker container for Node application.</li> 
+            <li> Setup and managed CICD pipeline on Jenkins.</li> 
+            <li> Setup and managed SonarQube for Node application.</li>
+            <li> Jenkins and SonarQube integration.</li>
+            <li> Add build steps in configuring the pipeline to code analysis
+              and deployment.</li>
+              <p style="color: white; font-size: medium;"> <span style="font-weight: bolder; color: white; font-size: x-large;">Achievement:</span> SonarQube detects bugs in the code and
+                reduces the risk of software development automatically and
+                alerts developers to fix them. 
+            </p>
+            </ul>
+         </div>
+         <center><a class="resume" href="https://ritik3311.hashnode.dev/build-a-cicd-pipeline-using-jenkins-sonarqube-docker-and-aws" style="color: white; font-size: medium; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;"><button id="button" class="btn btn-primary deep-purple btn-block" style="background-color: blueviolet; width: 50%; margin: 0%;"><b>VIEW PROJECT</b></button></a></center>
+          
+         
+    </div>
+  </div>
+
+  --------------------------------
+
+  <div class="row">
+    <div class="col-md-6 col-12" >
+      <div class="row" style="font-family:Arial, Helvetica, sans-serif; ">             
+        
+        <div class="about2 container col-md-12 col-12 wow slideInLeft" data-wow-duration="1s" style="animation-duration: 1s; animation-name: slideInLeft; ">
+          <img src="img/Install-Gitlab-Runner-on-Ubuntu-22-04(1).jpg" alt="images" width="100%" height="100%">
+        </div>
+        </div>        
+    </div>
+    <div class="col-md-6 col-12" style="color: white">
+        <div class="about" style="align-items: center; padding-top: 0%; padding-left: 2%;">
+          <h2 style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;"><b> <i>Setup Local Gitlab Runner on Ubuntu and Confirgured
+            the runner on Gitlab Pipeline</i> </b> </h2>
+            <li> Installed Local Gitlab runner on Ubuntu.</li> 
+            <li> Configured this runner on Gitlab Pipeline with Job tag.</li> 
+            <li> Used Local Gitlab Runner to trigger Gitlab Pipeline job.</li> 
+            <p style="color: white; font-size: medium;"> <span style="font-weight: bolder; color: white; font-size: x-large;">Achievement:</span> : A runner is a lightweight, highly-scalable agent
+              that picks up a CI job through the coordinator API of GitLab
+              CI/CD, runs the job, and sends the result back to the GitLab
+              instance.
+               
+          </p>
+         </div>
+         <center><a class="resume" href="https://ritik3311.hashnode.dev/setting-up-a-local-gitlab-runner-on-linux-machine-and-configuring-the-runner-on-gitlab-pipeline" style="color: white; font-size: medium; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;"><button id="button" class="btn btn-primary deep-purple btn-block" style="background-color: blueviolet; width: 50%; margin: 0%;"><b>VIEW PROJECT</b></button></a></center>
+          
+         
+    </div>
+  </div>
+  
+</section>
+
+
+       <!-- <section class="container types" style="padding-top: 4%; padding-bottom: 5%;  scroll-behavior: smooth;"> 
+       <center> <h1 style="color: whitesmoke; padding-bottom: 2%;">Projects <hr></h1></center> 
+        <div class="box" >
+          <div class="row justify-content-center">
+          <div class="card col-md-6 col-12">
+            <div class="imgBx wow slideInRight" data-wow-duration="2s" style="animation-duration: 2s; animation-name: slideInLeft">
+                <a href="https://ritik3311.hashnode.dev/deployed-django-todo-list-on-kubernetes"><img src="img/1rd project(kubernetes).png" alt="images" width="100%"></a>
+            </div>
+            <div class="details">
+                <h2>Deployed Django Todo List App on Kubernetes</h2>
+            </div>
+          </div>
+        
+           <div class="card col-md-4 col-12">
+             <div class="imgBx wow slideInRight" data-wow-duration="2s" style="animation-duration: 2s; animation-name: slideInDown">
+              <a href="rate.html"> <img src="img/ban05.jpg" alt="images" width="100%"></a>
+             </div>
+             <div class="details">
+                <h2>Metal<br><span>Waste</span></h2>
+              </div>
+           </div>
+    
+           <div class="card col-md-6 col-12">
+             <div class="imgBx wow slideInRight" data-wow-duration="2s"" style="animation-duration: 2s; animation-name: slideInRight">
+              <a href="https://ritik3311.hashnode.dev/build-a-cicd-pipeline-using-jenkins-sonarqube-docker-and-aws"><img src="img/3rd project(sonarqube).png" alt="images"></a>
+             </div>
+             <div class="details">
+                <h2>Build a CI/CD Pipeline using Jenkins, SonarQube, Docker and AWS</h2>
+              </div>
+           </div>
+
+           <div class="card col-md-6 col-12 ">
+            <div class="imgBx wow slideInRight" data-wow-duration="2s"" style="animation-duration: 2s; animation-name: slideInLeft">
+              <a href="https://ritik3311.hashnode.dev/configuring-jenkins-declarative-pipeline-with-aws-cloud"><img src="img/4th project(jenkins declarative).png" alt="images" width="100%"></a>
+            </div>
+            <div class="details">
+               <h2>Configuring Jenkins Declarative Pipeline with AWS Cloud</h2>
+             </div>
+          </div>
+   
+          <div class="card col-md-6 col-12">
+            <div class="imgBx wow slideInRight" data-wow-duration="2s"" style="animation-duration: 2s; animation-name: slideInRight">
+              <a href="https://ritik3311.hashnode.dev/setting-up-a-local-gitlab-runner-on-linux-machine-and-configuring-the-runner-on-gitlab-pipeline"> <img src="img/Install-Gitlab-Runner-on-Ubuntu-22-04(1).jpg" alt="images" width="100%"></a>
+            </div>
+            <div class="details">
+               <h2>Setup Local Gitlab Runner on Ubuntu and Confirgured the runner on Gitlab Pipeline</h2>
+             </div>
+          </div>
+          </div>
+      </div>
+      </section>  -->
+
+
+
+      <section class="container" >
+        <div style="padding: 5% 0% 5% 0%;">
+        <div class="row" style="color: whitesmoke; box-shadow: 3px 3px 5px 3px white; background-color: #1d2022;  scroll-behavior: smooth;">
+           <div class="col-md-7 col-12" style="padding-top: 5%;">
+             <h3><b><i> DevSecOps - Deliver Software Faster With Secure DevSecOps </i></b></h3>
+             <p style="font-family: Arial, Helvetica, sans-serif; font-weight: 500; font-size: large; color: whitesmoke;"> DevSecOps (development, security, and operations) is a development practice that weaves security initiatives at every stage of the software development lifecycle to deliver robust and secure applications. Whether you need help evaluating, testing, or building a deployment pipeline, or an assessment of your overall DevSecOps strategy, our team at Idnor has the knowledge and proven experience to support your organization without compromising on quality or speed of delivery.</p>
+           </div>
+
+           <div class="col-md-5 col-12 justify-content-center wow slideInRight" data-wow-duration="2s" >
+             <img src="img/02-1-2.webp" alt="" width="100%" height="100%">
+             
+           </div>
+        </div>
+      </div>
+      </section>
+
+
+      
+
+
+
+<!-- <section class="plan container" style=" scroll-behavior: smooth; padding: 0% 0% 0% 0%;background-image:url(img/50-Beautiful-and-Minimalist-Presentation-Backgrounds-031.jpg)">
+  <div class="col-md-12 col-12" style="padding: 0%;">
+  <center><h1 style="color: black;">Work Experience <hr> </h1></center>
+</div> 
+<div class="row" style="padding-bottom: 0%; padding-top: 0%;">
+    <div class="col-md-5 col-12 container experience" >       
+      <center> <img src="img/kisspng-computer-icons-work-experience-computer-software-c-experience-bar-5adf275bca1d81.4671771015245740438279.png" alt="" width="100%" style=" padding:0% 0% 0% 0%;"></center>
+  </div>
+<div class="steps col-md-12 container">
+  <div class=" col-md-12 col-12  wow slideInRight" data-wow-duration="2s" style="padding-top:0%; animation-duration: 2s; animation-name: slideInRight">
+    <h5>Full Time:  DevSecOps Engineer</h5>
+    <h3>SecIQ Technologies LLP </h3>
+    <i class="fa-solid fa-calendar-days" style="font-size: small;"> <b style="font-family: Arial, Helvetica, sans-serif;"> July 2023 - Present </b> </i>
+    
+    <ul style="font-size: small;">
+       <li>Onboarding applications and projects on security tools for 
+        SCA(Blackduck) and SAST(Coverity on Polaris), ensuring 
+        comprehensive security scanning and vulnerability 
+        detection.</li>
+       
+       <li>Configure the security stage on Gitlab pipeline and 
+        seamlessly integrated Blackduck and Polaris with Gitlab 
+        projects, enabling automated security scans and ensuring 
+        early detection of vulnerabilities.</li> 
+
+       <li>Set up Blackduck and Polaris scans on various operating 
+          systems, including Windows, Linux, and MacOS, ensuring 
+          compatibility and coverage across different environments.</li>
+
+       <li>Proactively resolving incidents and errors related to 
+          Blackduck and Polaris, adhering to SLA terms and 
+          minimizing downtime and disruptions to the development 
+          process. </li> 
+    </ul>     
+    </div>
+
+    <hr>
+   
+     <div class=" col-md-12 col-12 wow slideInRight" data-wow-duration="2s" style="padding-top:0%; animation-duration: 2s; animation-name: slideInRight">
+        
+      <h5>Summer Intern: DevOps Engineer </h5>
+      <h3>Crimzen Red Studios </h3>
+      <i class="fa-solid fa-calendar-days" style="font-size: small;"> <b style="font-family: Arial, Helvetica, sans-serif;"> October 2022 - December 2022</b> </i>
+      
+      <ul style="font-size: small;">
+         <li>Successfully deployed Nakama Server on AWS, utilizing 
+          tools such as AWS EC2, Git, Github, Docker, and Jenkins, 
+          to build an online multiplayer game for Crimzen Red 
+          Studios.</li>
+         
+         <li>Implemented Cockroachdb on AWS as the game database, 
+          leveraging AWS EC2, Git, Github, Docker, and Jenkins, to 
+          ensure efficient and reliable data storage and retrieval.</li> 
+  
+         <li>Collaborated with the development team to ensure 
+          seamless integration of the Nakama Server and 
+          Cockroachdb into the game infrastructure. </li>
+      </ul>
+       </div>
+
+</div>
+</div>
+
+</section> -->
+
+
+<div class="bg-img"></div>
+
+
+
+
+      <!-- <section id="home" style=" scroll-behavior: smooth;">
+       <center> <div class=" text row  justify-content-start" style="background-attachment: fixed;">
+        <div class="col-md-4 col-4 wow slideInUp" data-wow-duration="2s" style="animation-duration: 2s;  animation-name: slideInLeft;" >
+            <h2>Dev</h2>
+        </div>
+        <div class="col-md-4 col-4 wow slideInUp" data-wow-duration="2s" style="animation-duration: 2s;  animation-name: slideInLeft;" >
+          <h2>Sec</h2>
+      </div>
+
+      <div class="col-md-4 col-4 wow slideInUp" data-wow-duration="2s" style="animation-duration: 2s;  animation-name: slideInLeft;" >
+        <h2>Ops</h2>
+    </div> 
+            </div>
+          </center>
+      </section> -->
+
+
+      <!-- <center><section id="home" class="container" style=" scroll-behavior: smooth; position: absolute;  display: flex;">
+        <h1 class="wow slideInRight" data-wow-duration="2s" style="color: white; animation-duration: 2s;  animation-name: slideInRight; font-weight: 1000;">Dev</h1>
+        <h1 class="wow slideInUp" data-wow-duration="2s" style="color:greenyellow; animation-duration: 2s;  animation-name: slideInUp; font-weight: 1000">Sec</h1> 
+        <h1 class="wow slideInLeft" data-wow-duration="2s" style="color: white; animation-duration: 2s;  animation-name: slideInLeft; font-weight: 1000">Ops</h1>
+      </section></center> -->
+
+
+      <footer>
+        <div class="footer container" style="text-decoration: none;">
+      <div>
+        
+          <center><h5> Feel Free To Contact Me</h5></center>
+          <hr>
+
+          
+          <div class="row">
+        <div class="col-md-4 col-4" style="text-align: center;">
+          <p><a href="tel:7488482659"><i class="fa-solid fa-phone" style="font-size: 25px;"></i> Phone</a></p>
+        </div>
+        <div class="col-md-4 col-4" style="text-align: center;">
+          <p><a href="mailto:sunny.singh950777@gmail.com"><i class="fa-solid fa-envelope" style="font-size: 25px;"></i> Email</a></p>
+        </div>
+        <div class="col-md-4 col-4" style="text-align: center;">
+          <p><a href="https://www.linkedin.com/in/ritik-ranjan-b475b6218/"><i class="fa-brands fa-linkedin" style="font-size: 25px;"></i> Linkedin </a></p>
+        </div>
+      
+        <!-- <div class="col-md-3>
+          <p><a href="#"><i class="fa-brands fa-instagram" style="font-size: 25px;"></i></a></p>
+        </div> -->
+        <!-- <div class="col-md-12 col-12">
+          <a href="tel:7488482659"><i class="fa-solid fa-phone"> </i> (+91)-7488482659 </a> <br>
+        </div> -->
+        <!-- <div class="col-md-12 col-12">
+          <a href="mailto:sunny.singh950777@gmail.com"><i class="fa-solid fa-envelope"></i> sunny.singh950777@gmail.com</a>
+        </div> -->
+        </div>
+        
+      </div>
+        <hr>
+        <div class="col-md-12 col-12">
+        <center><p>Copyright © 2024 Ritik Portfolio. Designed and Developed by Ritik Ranjan</p></center>
+      </div>
+        </div>
+      </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+      <script src="owlcarousel/owl.carousel.min.js"></script>
+      <script src="js/wow.min.js"></script>
+      
+      
+      <script>
+        new WOW().init();
+     </script>
+
+     <script>$('.owl-carousel').owlCarousel({
+      autoplay: true,
+      autoplayTimeout: 1000,
+      autoplayHoverPause: false,
+      loop: true,
+      margin: 250,
+      responsiveClass: true,
+      nav: false,
+      loop: true,
+      stagePadding: 50,
+      responsive: {
+        0: {
+          items: 1
+        },
+        568: {
+          items: 2
+        },
+        600: {
+          items: 3
+        },
+        1000: {
+          items: 3
+        }
+      }
+    })
+    $(document).ready(function() {
+      $('.popup-youtube').magnificPopup({
+        disableOn: 320,
+        type: 'iframe',
+        mainClass: 'mfp-fade',
+        removalDelay: 160,
+        preloader: false,
+        fixedContentPos: true
+      });
+    });
+    $('.item').magnificPopup({
+      delegate: 'a',
+    });
+    </script>
+
+
+<script>
+$(function() {
+    $('a.page-scroll').bind('click', function(event) {
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: $($anchor.attr('href')).offset().top
+        }, 1500, 'easeInOutExpo');
+        event.preventDefault();
+    });
+})
+
+// Highlight the top nav as scrolling occurs
+// $('body').scrollspy({
+//     target: '.navbar-fixed-top'
+// });
+
+ //Closes the Responsive Menu on Menu Item Click
+$('.navbar-collapse ul li a').click(function() {
+   $('.navbar-toggle:visible').click();
+});
+
+</script>
+
+<script>
+  /* Set the width of the sidebar to 250px (show it) */
+function openNav() {
+  document.getElementById("mySidepanel").style.width = "250px";
+}
+
+/* Set the width of the sidebar to 0 (hide it) */
+function closeNav() {
+  document.getElementById("mySidepanel").style.width = "0";
+}
+</script>
+     
+</body>
+</html>
